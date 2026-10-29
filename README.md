@@ -54,70 +54,70 @@ from the process, then that's the point.
 
 
 ### Command Line
-- [] Hello World: basic setup, stdout
-- [] Command Line Greeting: command line args, usage messages, boolean logic, simple formatted output
-- Calculator (pre and post fix): stdin, tokenization, arithmetic, variables, stacks, loops, error handling, EOF. 
-- Unit Converter (takes input and flags and converts units): functions, floats, input validation
-- Line Filter
+- [ ] Hello World: basic setup, stdout
+- [ ] Command Line Greeting: command line args, usage messages, boolean logic, simple formatted output
+- [ ] Calculator (pre and post fix): stdin, tokenization, arithmetic, variables, stacks, loops, error handling, EOF. 
+- [ ] Unit Converter (takes input and flags and converts units): functions, floats, input validation
+- [ ] Line Filter
   - reads lines of input from stdin, filters based on a regex, outputs matching lines
   - regex, buffering, unicode
-- Simple Text Processor
+- [ ] Simple Text Processor
   - reads lines of text, counting the number of times each word occurs, with a switch to ignore case
   - dictionary, comparison, 
-- Guess A Number
+- [ ] Guess A Number
   - interactive game, prompts user to guess a number between two random numbers at least 10 digits apart
   - random numbers, loops, interactive command line
 
 ### Simple Processing
-- Copy a File
+- [ ] Copy a File
   - takes filenames on the command line and uses the file system API to copy, handling problems
   - teaches how to use the system APIs, error handling
-- CSV Reader and Validator
+- [ ] CSV Reader and Validator
   - read a CSV file in validate that is it in CSV format, print the total columns and rows
   - teachs text parsing and processing, CSV format, input and output
-- Sorter: sorts a list on stdin to stdout, takes a switch for sorting options
-- Contacts: command line contact manager uses a JSON file, CRUD
-- Bindump: open a binary file and dump the contexts as binary, octal, of hex based on command line switch
-- Expression evaluator: takes math expressions like "(2 * (2 + 4) / 3)" and outputs the result
+- [ ] Sorter: sorts a list on stdin to stdout, takes a switch for sorting options
+- [ ] Contacts: command line contact manager uses a JSON file, CRUD
+- [ ] Bindump: open a binary file and dump the contexts as binary, octal, of hex based on command line switch
+- [ ] Expression evaluator: takes math expressions like "(2 * (2 + 4) / 3)" and outputs the result
 
 ### Simple OS and Env 
-- Filesystem Search: find a regex expression on the file system
-- Dumpenv: dumps the current operating system environment, including env vars, running processes, user info, etc
-- Forkrace: fork N processes that each print "Hello World! [N]"
-- Signalhandler: starts a program that will count seconds and output signals it gets until it gracefully terminates
-- Shell: make a simple shell that starts processes, has commands, stdin/stdout redirection, pipes, file descriptors, signals
-- Memplay: interactively allocate different RAM, exit gracefully, demonstrates how the stack and heap allocate and release RAM
-- Filelocker: spawn processes that update the same file with different information to demonstrate race conditions
-- Parenting: start child processes with logging, monitor, restart, etc
-- TCP Echo Server: write a TCP server that will echo whatever you send it, use telnet to test
-- Netchat: client server command line chat program
-- Pinger: make a UDP ping program
-- Whodis: do a DNS and host info lookup
+- [ ] Filesystem Search: find a regex expression on the file system
+- [ ] Dumpenv: dumps the current operating system environment, including env vars, running processes, user info, etc
+- [ ] Forkrace: fork N processes that each print "Hello World! [N]"
+- [ ] Signalhandler: starts a program that will count seconds and output signals it gets until it gracefully terminates
+- [ ] Shell: make a simple shell that starts processes, has commands, stdin/stdout redirection, pipes, file descriptors, signals
+- [ ] Memplay: interactively allocate different RAM, exit gracefully, demonstrates how the stack and heap allocate and release RAM
+- [ ] Filelocker: spawn processes that update the same file with different information to demonstrate race conditions
+- [ ] Parenting: start child processes with logging, monitor, restart, etc
+- [ ] TCP Echo Server: write a TCP server that will echo whatever you send it, use telnet to test
+- [ ] Netchat: client server command line chat program
+- [ ] Pinger: make a UDP ping program
+- [ ] Whodis: do a DNS and host info lookup
 
 
 ## Minimal Requirements
 These are a bit more advanced but still on the basics list.
 
 ### Networking
-- Simple HTTP Server: make the smallest HTTP server that will give a response to a web browser
-- REST Client: a REST client that can ping a public API
-- REST API Server
-- File Download Server: has a virtual root and allows clients to download files
-- TLS Client: connect to a HTTPS server and validate certificate
+- [ ] Simple HTTP Server: make the smallest HTTP server that will give a response to a web browser
+- [ ] REST Client: a REST client that can ping a public API
+- [ ] REST API Server
+- [ ] File Download Server: has a virtual root and allows clients to download files
+- [ ] TLS Client: connect to a HTTPS server and validate certificate
 
 ### Database
-- SQLite Contact: write a basic contact manager that uses SQLite
-- Relational Task Tracker: has users, projects, tasks and understand the relationships
-- Money Journal: moves money between accounts, transactions, ACID, rollbacks
-- Docsearch: index a folder of text documents based on word contents and search them
-- keystore: persistant key/val store with append only log, crash recovery
+- [ ] SQLite Contact: write a basic contact manager that uses SQLite
+- [ ] Relational Task Tracker: has users, projects, tasks and understand the relationships
+- [ ] Money Journal: moves money between accounts, transactions, ACID, rollbacks
+- [ ] Docsearch: index a folder of text documents based on word contents and search them
+- [ ] keystore: persistant key/val store with append only log, crash recovery
 
 ### Concurrency
-- BadThread: demonstrate thread race conditions failing in various ways
-- Queues: demonstrate producer/consumer queues
-- Jobqueue: get a list of items and a counter for concurrent processing (worker pool)
-- Asyncfetch: spawn multiple HTTP clients to get documents at the same time while monitoring progress
-- TCP Server: spawn a thread for each connection and echo back, manage disconnects, persist, shutdown gracefully
+- [ ] BadThread: demonstrate thread race conditions failing in various ways
+- [ ] Queues: demonstrate producer/consumer queues
+- [ ] Jobqueue: get a list of items and a counter for concurrent processing (worker pool)
+- [ ] Asyncfetch: spawn multiple HTTP clients to get documents at the same time while monitoring progress
+- [ ] TCP Server: spawn a thread for each connection and echo back, manage disconnects, persist, shutdown gracefully
 
 
 ## Advanced
