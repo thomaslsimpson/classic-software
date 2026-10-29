@@ -66,6 +66,9 @@ Postfix (Reverse Polish Notation) reads the input left to right and solving like
 54+ -> 5 + 4 -> 9
 12+34+* -> (12+)(34+)* -> (1 + 2) * (3 + 4) -> 21
 123*+ -> (1 + (2 * 3)) -> 7
+```
+
+The program would execute like this:
 
 ```
 > ./postfix 34+
